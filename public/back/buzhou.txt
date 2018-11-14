@@ -1,0 +1,22 @@
+一:
+1.启动项目
+    启动mysql服务器
+    在letao文件夹中 shift+右键 开启命令行 ,开启node服务器 npm start
+    注:启动窗口不能关闭,项目报错,需要重启服务器
+2.git 管理项目
+    git init 初始化
+    在github中创建一个远程仓库,letao,用于存放项目代码
+    git add . 添加代码
+    设置仓库别名:git remote add origin git@github.com:Abykiki/letao.git
+    将代码推送到github上: git push origin master
+3.静态登录页面
+  3.1 login.html
+    多使用bootstrap插件完成
+    基本布局完成后使用插件
+    在bootstrap组件中面板中的带标题的面板插件
+    全局css样式里的表单插件
+  3.2 login.js
+    表单校验(插件) 
+        查阅 基于bootstrap的前端校验插件 文件
+    注册验证表单验证成功事件(插件)
+        查阅 基于bootstrap的前端校验插件 文件
